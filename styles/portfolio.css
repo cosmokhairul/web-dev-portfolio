@@ -1,8 +1,30 @@
 nav {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 200px;
 }
 
 .nav-title {
   font-size: 30px;
   font-weight: 900;
+}
+
+.title-letter {
+  color: orange;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  margin-right: 20px;
+}
+
+nav ul {
+  display: flex;
 }
